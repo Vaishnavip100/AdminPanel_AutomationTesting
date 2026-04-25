@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Automation Suite]">
+  <listeners>
+    <listener class-name="listeners.RetryListener"/>
+    <listener class-name="listeners.TestListener"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Alert Tests(failed)">
+    <classes>
+      <class name="tests.AlertTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testPromptInput"/>
+        </methods>
+      </class> <!-- tests.AlertTest -->
+    </classes>
+  </test> <!-- Alert Tests(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->

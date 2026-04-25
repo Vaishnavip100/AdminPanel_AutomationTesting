@@ -1,0 +1,32 @@
+<suite name="Automation Suite" parallel="tests" thread-count="2">
+
+	<listeners>
+        <listener class-name="listeners.RetryListener"/>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="Form Tests">
+        <classes>
+            <class name="tests.FormTest"/>
+        </classes>
+    </test>
+
+    <test name="Alert Tests">
+        <classes>
+            <class name="tests.AlertTest"/>
+        </classes>
+    </test>
+
+    <test name="Dynamic Tests">
+        <classes>
+            <class name="tests.DynamicTest"/>
+        </classes>
+    </test>
+
+    <test name="Frames Tests">
+        <classes>
+            <class name="tests.FramesTest"/>
+        </classes>
+    </test>
+
+</suite>

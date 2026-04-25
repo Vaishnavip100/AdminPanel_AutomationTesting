@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-25T20:10:49 IST" name="Automation Suite" finished-at="2026-04-25T20:11:54 IST" duration-ms="65307">
+    <groups>
+    </groups>
+    <test started-at="2026-04-25T20:10:49 IST" name="Alert Tests" finished-at="2026-04-25T20:11:24 IST" duration-ms="35112">
+      <class name="tests.AlertTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AlertTest@790da477]" started-at="2026-04-25T20:10:49 IST" name="setUp" finished-at="2026-04-25T20:10:55 IST" duration-ms="6211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="confirmAccept()[pri:0, instance:tests.AlertTest@790da477]" started-at="2026-04-25T20:10:55 IST" name="confirmAccept" finished-at="2026-04-25T20:11:00 IST" duration-ms="4884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmAccept -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AlertTest@790da477]" started-at="2026-04-25T20:11:00 IST" name="tearDown" finished-at="2026-04-25T20:11:01 IST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AlertTest@790da477]" started-at="2026-04-25T20:11:01 IST" name="setUp" finished-at="2026-04-25T20:11:04 IST" duration-ms="3750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="confirmDismiss()[pri:0, instance:tests.AlertTest@790da477]" started-at="2026-04-25T20:11:04 IST" name="confirmDismiss" finished-at="2026-04-25T20:11:09 IST" duration-ms="4470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmDismiss -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AlertTest@790da477]" started-at="2026-04-25T20:11:09 IST" name="tearDown" finished-at="2026-04-25T20:11:09 IST" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AlertTest@790da477]" started-at="2026-04-25T20:11:09 IST" name="setUp" finished-at="2026-04-25T20:11:13 IST" duration-ms="3547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="promptInput()[pri:0, instance:tests.AlertTest@790da477]" started-at="2026-04-25T20:11:13 IST" name="promptInput" finished-at="2026-04-25T20:11:17 IST" duration-ms="3706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- promptInput -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AlertTest@790da477]" started-at="2026-04-25T20:11:17 IST" name="tearDown" finished-at="2026-04-25T20:11:17 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AlertTest@790da477]" started-at="2026-04-25T20:11:17 IST" name="setUp" finished-at="2026-04-25T20:11:21 IST" duration-ms="3725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="simpleAlertAccept()[pri:0, instance:tests.AlertTest@790da477]" started-at="2026-04-25T20:11:21 IST" name="simpleAlertAccept" finished-at="2026-04-25T20:11:24 IST" duration-ms="3204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleAlertAccept -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.AlertTest@790da477]" started-at="2026-04-25T20:11:24 IST" name="tearDown" finished-at="2026-04-25T20:11:24 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.AlertTest -->
+    </test> <!-- Alert Tests -->
+    <test started-at="2026-04-25T20:10:49 IST" name="Form Tests" finished-at="2026-04-25T20:11:26 IST" duration-ms="37155">
+      <class name="tests.FormTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FormTest@268f106e]" started-at="2026-04-25T20:10:50 IST" name="setUp" finished-at="2026-04-25T20:10:53 IST" duration-ms="3030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="formSubmission(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FormTest@268f106e]" started-at="2026-04-25T20:10:53 IST" name="formSubmission" data-provider="excelData" finished-at="2026-04-25T20:11:03 IST" duration-ms="9645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vaishnavi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vaishnavi@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hello Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formSubmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormTest@268f106e]" started-at="2026-04-25T20:11:03 IST" name="tearDown" finished-at="2026-04-25T20:11:03 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FormTest@268f106e]" started-at="2026-04-25T20:11:03 IST" name="setUp" finished-at="2026-04-25T20:11:07 IST" duration-ms="3611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="formSubmission(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FormTest@268f106e]" started-at="2026-04-25T20:11:07 IST" name="formSubmission" data-provider="excelData" finished-at="2026-04-25T20:11:14 IST" duration-ms="6655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Automation Run]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formSubmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormTest@268f106e]" started-at="2026-04-25T20:11:14 IST" name="tearDown" finished-at="2026-04-25T20:11:14 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FormTest@268f106e]" started-at="2026-04-25T20:11:14 IST" name="setUp" finished-at="2026-04-25T20:11:18 IST" duration-ms="3789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="formSubmission(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.FormTest@268f106e]" started-at="2026-04-25T20:11:18 IST" name="formSubmission" data-provider="excelData" finished-at="2026-04-25T20:11:25 IST" duration-ms="7478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alice]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[alice@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Selenium Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formSubmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FormTest@268f106e]" started-at="2026-04-25T20:11:25 IST" name="tearDown" finished-at="2026-04-25T20:11:26 IST" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FormTest -->
+    </test> <!-- Form Tests -->
+    <test started-at="2026-04-25T20:11:26 IST" name="Frames Tests" finished-at="2026-04-25T20:11:54 IST" duration-ms="27355">
+      <class name="tests.FramesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FramesTest@5db6b9cd]" started-at="2026-04-25T20:11:26 IST" name="setUp" finished-at="2026-04-25T20:11:30 IST" duration-ms="3920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="iframeContent()[pri:0, instance:tests.FramesTest@5db6b9cd]" started-at="2026-04-25T20:11:30 IST" name="iframeContent" finished-at="2026-04-25T20:11:35 IST" duration-ms="4484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iframeContent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FramesTest@5db6b9cd]" started-at="2026-04-25T20:11:35 IST" name="tearDown" finished-at="2026-04-25T20:11:35 IST" duration-ms="656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FramesTest@5db6b9cd]" started-at="2026-04-25T20:11:35 IST" name="setUp" finished-at="2026-04-25T20:11:39 IST" duration-ms="3919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="switchBackToMainPage()[pri:0, instance:tests.FramesTest@5db6b9cd]" started-at="2026-04-25T20:11:39 IST" name="switchBackToMainPage" finished-at="2026-04-25T20:11:44 IST" duration-ms="5005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchBackToMainPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FramesTest@5db6b9cd]" started-at="2026-04-25T20:11:44 IST" name="tearDown" finished-at="2026-04-25T20:11:45 IST" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FramesTest@5db6b9cd]" started-at="2026-04-25T20:11:45 IST" name="setUp" finished-at="2026-04-25T20:11:47 IST" duration-ms="2166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="switchToIframe()[pri:0, instance:tests.FramesTest@5db6b9cd]" started-at="2026-04-25T20:11:47 IST" name="switchToIframe" finished-at="2026-04-25T20:11:53 IST" duration-ms="5849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchToIframe -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FramesTest@5db6b9cd]" started-at="2026-04-25T20:11:53 IST" name="tearDown" finished-at="2026-04-25T20:11:54 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FramesTest -->
+    </test> <!-- Frames Tests -->
+    <test started-at="2026-04-25T20:11:25 IST" name="Dynamic Tests" finished-at="2026-04-25T20:11:54 IST" duration-ms="29424">
+      <class name="tests.DynamicTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DynamicTest@624ea235]" started-at="2026-04-25T20:11:25 IST" name="setUp" finished-at="2026-04-25T20:11:27 IST" duration-ms="2330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dynamicContentLoaded()[pri:0, instance:tests.DynamicTest@624ea235]" started-at="2026-04-25T20:11:27 IST" name="dynamicContentLoaded" finished-at="2026-04-25T20:11:36 IST" duration-ms="8935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicContentLoaded -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DynamicTest@624ea235]" started-at="2026-04-25T20:11:36 IST" name="tearDown" finished-at="2026-04-25T20:11:37 IST" duration-ms="1210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DynamicTest@624ea235]" started-at="2026-04-25T20:11:37 IST" name="setUp" finished-at="2026-04-25T20:11:41 IST" duration-ms="3571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dynamicInteractionResult()[pri:0, instance:tests.DynamicTest@624ea235]" started-at="2026-04-25T20:11:41 IST" name="dynamicInteractionResult" finished-at="2026-04-25T20:11:46 IST" duration-ms="5426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicInteractionResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DynamicTest@624ea235]" started-at="2026-04-25T20:11:46 IST" name="tearDown" finished-at="2026-04-25T20:11:47 IST" duration-ms="921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.DynamicTest@624ea235]" started-at="2026-04-25T20:11:47 IST" name="setUp" finished-at="2026-04-25T20:11:51 IST" duration-ms="3559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="redirectFunctionality()[pri:0, instance:tests.DynamicTest@624ea235]" started-at="2026-04-25T20:11:51 IST" name="redirectFunctionality" finished-at="2026-04-25T20:11:54 IST" duration-ms="3192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.DynamicTest@624ea235]" started-at="2026-04-25T20:11:54 IST" name="tearDown" finished-at="2026-04-25T20:11:54 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.DynamicTest -->
+    </test> <!-- Dynamic Tests -->
+  </suite> <!-- Automation Suite -->
+</testng-results>
