@@ -16,7 +16,6 @@ It automates a demo web application covering:
 
 * Form interactions
 * Alerts & dialogs
-* Table operations
 * Dynamic elements
 * Frames handling
 
@@ -72,13 +71,13 @@ AdminPanel/
 │   │
 │   └── config.properties              # Configuration (browser, baseUrl, timeout)
 │
-├── reports/                           # Extent report output (auto-generated)
-├── screenshots/                       # Failure screenshots (auto-generated)
+├── reports/                           # Extent report output
+├── screenshots/                       # Failure screenshots
 ├── target/                            # Maven build output
 ├── test-output/                       # TestNG default reports
 │
-├── pom.xml                            # Maven dependencies (Selenium, TestNG, etc.)
-└── testng.xml                         # Test suite configuration (parallel + listeners)
+├── pom.xml                            # Maven dependencies
+└── testng.xml                         # Test suite configuration
 ```
 
 ---
