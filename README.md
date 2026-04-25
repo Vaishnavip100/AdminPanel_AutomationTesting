@@ -140,7 +140,7 @@ AdminPanel/
 ### ▶️ Run via Maven
 
 ```bash
-mvn clean test
+mvn test
 ```
 
 ### ▶️ Run via TestNG XML
